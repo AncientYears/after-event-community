@@ -1,0 +1,22 @@
+{
+  "name": "after-event-community-bot",
+  "version": "1.0.0",
+  "description": "The main bot for the Hackweek After-Event-Community server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AncientYears/after-event-community.git"
+  },
+  "keywords": [
+    "discord-bot"
+  ],
+  "author": "AncientYears, Arc'blroth, TheGLander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AncientYears/after-event-community/issues"
+  },
+  "homepage": "https://github.com/AncientYears/after-event-community#readme"
+}
