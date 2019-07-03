@@ -11,6 +11,13 @@ if (token == null || token == undefined) {
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setStatus('online');
+  client.user.setPresence({
+		game: {
+            name: 'PARTY POOPER 3000',
+            type: 0
+        }
+  });
 });
 
 client.on("message", msg => {
